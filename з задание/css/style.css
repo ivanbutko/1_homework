@@ -1,0 +1,292 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html{	
+	background: url("../img/background-repeat.jpg") repeat ;
+	font:normal 14px Verdana ;
+}
+img{
+border:0px;
+}
+h1,h2,h3{
+font-family:verdana;
+}
+p{
+font-size:19px;
+}
+/* layout*/
+.Wrapper{
+width:1140px;
+margin:0 auto;
+background-color:#ffffff;
+}
+
+/* Header*/
+#Header{
+width:100%;
+height:148px;
+background: url("../img/background-repeat.jpg") repeat ;
+}
+.headerLeft{
+width:30%;
+float:left;
+padding-left:27px;
+margin-top:47px;
+}
+
+.headerRight{
+width:70%;
+float :right;
+margin-top:-65px;
+
+}
+
+.main-navigation{
+margin-right:20px;
+float:right;
+}
+.main-navigation li{
+float:left;
+list-style-type:none;
+height:50px;
+}
+.main-navigation li a{
+display:block;
+padding:20px 20px 20px 20px;
+position: relative;	
+text-decoration:none;
+/**/
+color:#FFFFFF;
+margin-right:8px;
+border-radius:5px;
+font:normal 14px Verdana;
+}
+
+.main-navigation li a:hover, .main-navigation li.active a{
+
+background-position: 0 0;
+background: url("../img/background-navigation.jpg") repeat ;
+}
+
+.logo{
+	width: 198px;
+	height: 29px;
+	margin:5px 70px 20px 0;
+	float: right;
+	text-indent: -90000px;
+	background: url("../img/logo.jpg") no-repeat 0 0;
+}
+
+.logo:hover{
+opacity:0.5;
+}
+
+.headerLeft p{
+float:right;
+margin:-30px 40px 0 0;
+color:#568CBB;
+font-size: 14px;
+}
+
+/*MIDLE*/
+#Midle{
+	clear: both;
+}
+.topText{
+border-bottom:1px solid #F0F0F0;
+padding:60px 63px 38px 40px 
+}
+
+.topText h1{
+text-align:center;
+text-transform:capitalize;
+padding-bottom:42px;
+color:#194670;
+}
+
+.topText p{
+text-align:center;
+color:#568CBB;
+}
+
+.MidleImages{
+padding-top:45px;
+padding-left:29px;
+height:382px;
+}
+
+.first{
+width:190px;
+height:276px;
+border:1px solid #F0F0F0;
+float:left;
+}
+
+
+				/*Стиль центра*/
+
+.second{
+margin-left:31px;
+width:190px;
+height:276px;
+border:1px solid #F0F0F0;
+float:left;
+}
+
+.secondHeader{
+height:90px;
+border-bottom:1px solid #F0F0F0;
+position:relative;
+background: url("../img/Midle/second/background-header.jpg") repeat;
+}
+
+.secondHeader h3{
+width:70%;
+height:60%;
+overflow:hidden;
+margin:auto;
+position: absolute;
+top: 0; left: 0; bottom: 0; right: 0;
+text-align:center;
+padding-top: 10px;
+color:#3B6E9B;
+}
+
+.secondImg{
+height:109px;
+border-bottom:1px solid #F0F0F0;
+position:relative;
+}
+
+.secondImg img{
+display:block;
+margin:auto;
+max-height:70px;
+max-width:69px;
+position: absolute;
+top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.secondButton{
+height:76px;
+border-top:1px solid #F0F0F0;
+position:relative;
+background: url("../img/Midle/second/background-bottom.jpg") repeat;
+}
+
+.secondButton input[type="submit"]{
+display:block;
+width:120px;
+height:37px;
+max-width:100px;
+max-height:50px;
+background: url("../img/Midle/second/background-button.jpg") repeat;
+color:#FFFFFF;
+font:normal 14px Verdana ;
+margin:auto;
+position: absolute;
+top: 0; left: 0; bottom: 0; right: 0;
+border-radius:5px;
+}
+
+.secondButton input[type="submit"]:hover{
+opacity:0.5;
+}
+
+			/*Стиль центра*/
+
+			
+			
+.third{
+margin-left:31px;
+width:190px;
+height:276px;
+border:1px solid #F0F0F0;
+float:left;
+}
+
+			
+.fourth{
+margin-left:31px;
+width:190px;
+height:276px;
+border:1px solid #F0F0F0;
+float:left;
+}
+
+.fifth{
+margin-left:31px;
+width:190px;
+height:276px;
+border:1px solid #F0F0F0;
+float:left;
+}
+
+.bottomText{
+clear:both;
+border-top:1px solid #F0F0F0;
+padding-left:29px;
+height:292px;
+background: url("../img/Midle/second/background-bottom.jpg") repeat;
+}
+
+
+.bottomText h2{
+text-align:center;
+text-transform:capitalize;
+font-size:30px;
+color:#194670;
+margin-top: 20px;
+}
+
+.bottomText p{
+text-align:center;
+color:#568CBB;
+font-size:19px;
+margin:0 auto;
+padding-top: 50px;
+}
+
+				/*footer*/
+
+#Footer{
+height:173px;
+border-top:1px solid #F0F0F0;
+background: url("../img/background-repeat.jpg") repeat ;
+}
+
+.footerleft{
+width:45%;
+float:left;
+height: 100px;
+padding-top: 8px;
+}
+
+.bottom-navigation{
+float:right;
+width:55%;
+}
+
+.bottom-navigation li{
+float:left;
+padding: 20px 1px 15px 15px;
+list-style-type:none;
+
+}
+
+.bottom-navigation li a{
+border-right:1px solid #799AB9;
+text-decoration:none;
+padding-right: 10px;
+color:#799AB9;
+}
+
+.footerleft p{
+font-size: 12px;
+color:#799AB9;
+padding-left: 30px;
+}
+
+
